@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="loai tests"  verbose="5" preserve-order= "true" >
+<!--    <parameter name="browserType" value="Chrome" />-->
+<!--    <parameter name="url" value="http://10.95.0.178/be-login/auth/login" />-->
+<parameter name="browser" value="chrome"></parameter>
+    <test name="test loai" preserve-order= "true" >
+
+
+
+        <classes>
+
+
+
+            <class name="Tests.LoginTest" />
+            <class name="Tests.RecordTest" />
+            <class name="Tests.AddTest" />
+            <class name="Tests.SearchTest" />
+
+
+
+
+        </classes>
+    </test>
+
+
+</suite>
